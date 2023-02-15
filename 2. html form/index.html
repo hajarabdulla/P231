@@ -9,18 +9,17 @@
 </head>
 
 <body>
-
-    <form action="#">
-        <label for="">Ad</label>
+    <form>
+        <label for="ad">Ad</label>
         <br>
-        <input type="text">
+        <input type="text" id="ad" name="name">
         <br>
         <hr>
-        <label for=""> Soyad</label>
+        <label for="soyad">Soyad</label>
         <br>
-        <input type="text">
+        <input type="text" placeholder="soyad" id="soyad">
         <hr>
-        <input type="number">
+        <input type="number" min="3" max="12">
         <input type="date" name="" id="">
         <input type="datetime-local" name="" id="">
         <input type="color" name="" id="">
@@ -40,7 +39,7 @@
         <input type="password" name="" id="">
         <br>
         <label for="">Email</label>
-        <input type="email">
+        <input type="email" name="email">
         <br>
         <label for="">Url</label>
         <input type="url">
@@ -48,6 +47,9 @@
         <input type="file">
 
         <input type="range">
+        <br>
+        <label for="">Hidden</label>
+        <input type="hidden" value="Hello">
         <button>Submit</button>
         <!-- <input type="radio" name="" id=""> -->
     </form>
