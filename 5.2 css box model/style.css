@@ -1,0 +1,65 @@
+ .first-box {
+     width: 300px;
+     height: 300px;
+     background-color: rebeccapurple;
+     color: #fff;
+     border: 10px solid red;
+     /* outline: 10px solid black; */
+     /* padding: 10px; */
+     /* padding-top: 10px;  
+    padding-left: 10px; */
+     /* margin-left: 60px;
+    margin-top: 20px; */
+
+     /* top, right, bottom, left */
+     /* margin: 20px; */
+
+     /* iki deyer varsa, ilk ==> top, bottom */
+     /* ikinci deyer --> left, right */
+     /* padding: 20px 0; */
+
+     /* top: 20px */
+     /* left and right: 50px */
+     /* bottom: 40px */
+     /* padding: 20px 50px 10px; */
+
+     /* border-radius: 10px 80px; */
+     border-top-left-radius: 80px;
+ }
+
+ /* p{
+    margin-top: 10px
+}
+
+.second-box {
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+    color: #fff;
+} */
+
+ /* #services {
+    background-color: #cad4e8;
+    padding: 50px;
+    /* border-width:10px; 
+    border-color: red;
+    border-style: solid ; */
+ border: 5px dashed pink;
+ }
+
+ */
+ /* #services h1{
+    margin-bottom: 20px;
+} */
+
+ #services p {
+     /* margin-bottom: 20px; */
+     margin: 20px 0;
+ }
+
+ button {
+     padding: 10px;
+ }
+
+ /* box model */
+ /* padding, margin, border */
