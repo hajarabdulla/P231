@@ -17,5 +17,110 @@ div{
 
 /* #text{
     color: blue;
-
 } */
+
+/* input[type="number"]{
+    background-color: teal;
+} */
+
+/* Attribute type  */
+/* input[my-atr="a"]{
+    background-color: pink;
+} */
+
+/* Descendant selector */
+/* All children  */
+
+/* .a .box {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+} */
+
+/* .child .box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+} */
+
+/* Child selector  */
+/* Direct child  */
+
+/* .parent > .box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.child .box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+} */
+
+/* General sibling combinator */
+/* h2 ~ p {
+    color: green
+} */
+
+/* Adjacent sibling combinator */
+/* p + p{
+    color: violet;
+} */
+
+/* Element type selec */
+/* Class sele */
+/* Id sele */
+/* Atttribute sele */
+/* Descendant  sele */
+/* Chlid com sele */
+/* Adjacent com sele */
+/* General sibling com sele */
+
+/* Universal sel */
+/* 
+* {
+    color: blue
+} */
+
+/* 100 */
+#second {
+    color: red;
+}
+
+/* 10 */
+.first{
+    color: blue;
+}
+
+/* p{
+    color: yellow !important; 
+} */
+/* 1 */
+
+/* #parent p {
+    color: yellow;
+} */
+
+
+/* #child{
+    color: red;;
+}
+
+.a {
+    color: blue;
+}
+
+/* p{
+    color: yellow !important;
+} */
+
+/* 101 */
+#parentId p{
+    color: yellow
+} */
+
+/* 110 */
+.parent #child {
+
+}
