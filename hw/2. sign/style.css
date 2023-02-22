@@ -1,0 +1,54 @@
+body>div {
+    padding: 157px 490px;
+}
+
+.form-title {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 39px;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    padding: 13px 18px;
+    width: 300px;
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+input[type="checkbox"] {
+    accent-color: #224957;
+}
+
+label {
+    color: #fff
+}
+
+a {
+    color: #20DF7F;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.btn {
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 13px 128px;
+    border: none;
+    margin-top: 37px;
+}
+
+img {
+    width: 100%;
+    margin-top: 77px;
+}
