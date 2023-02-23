@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+}
+
+#parent {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(245, 96, 245);
+  position: relative;
+  display: flex;
+}
+
+.child,
+.box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: red;
+}
+
+#child-1 {
+  background: green;
+  position: relative;
+  top: 20px;
+}
+
+#child-2 {
+  background: blue;
+  /* position: absolute; */
+}
+
+#child-3 {
+  background: rgb(222, 97, 30);
+  position: sticky;
+  top: 0;
+}
+
+/* static, relative, absolute, fixed, sticky */
+
+/* top, left, bottom, right */
