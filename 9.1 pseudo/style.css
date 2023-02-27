@@ -1,0 +1,78 @@
+:root {
+  --borderRaidus: 10px;
+  --bgColor: tomato;
+}
+
+button {
+  background-color: var(--bgColor);
+  padding: 10px;
+  border: none;
+  border-radius: var(--borderRaidus);
+}
+
+/* Hover pseudo class */
+button:focus {
+  background: green;
+  color: white;
+  /* border: 10px solid red; */
+  /* width: 300px;
+  padding: 50px; */
+}
+
+button:focus + p {
+  display: none;
+}
+
+/* p:active {
+  display: none;
+} */
+
+input {
+  padding: 0.875rem 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #69707a;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #c5ccd6;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.35rem;
+}
+
+input:focus {
+  color: #69707a;
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(0 97 242 / 25%);
+}
+
+/* link, visied */
+/* li:first-child {
+  color: red;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+  list-style: none;
+  border-right: 1px solid purple;
+}
+
+li:last-child {
+  border: none;
+} */
+
+/* li:nth-child(1) {
+  color: red;
+}
+
+p:nth-child(3) {
+  color: red;
+} */
